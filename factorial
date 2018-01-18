@@ -1,0 +1,19 @@
+#factorial of a number
+#first program
+import math
+def Rec_Fact(n):
+  if n==0:
+    return 1
+  else:
+    return(n*Rec_Fact(n-1))
+print(Rect_Fact(5))
+
+#second program
+def fact(x):
+  for num in range(0,x+1):
+    if num<2:
+      result=num
+    else:
+      result*=num
+  return result
+print(fact(4))
