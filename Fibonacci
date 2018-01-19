@@ -1,0 +1,10 @@
+def fibonacci(num):
+	list1=[]
+	first=0
+	second=1
+	while num>=0:
+		list1.append(first)
+		num-=1
+		first,second=second,(first+second)
+	return list1
+print(fibonacci(4))
