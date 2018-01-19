@@ -6,7 +6,7 @@ def Rec_Fact(n):
     return 1
   else:
     return(n*Rec_Fact(n-1))
-print(Rect_Fact(5))
+print(Rec_Fact(5))
 
 #second program
 def fact(x):
